@@ -1,98 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate Bangladesh</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Donate Bangladesh</title>
 
-    <!-- Google fonts links here -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <!-- Google fonts links here -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 
-    <!-- Tailwind and DaisyUi links here -->
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+        <!-- Font Awesome links here -->
+        <script src="https://kit.fontawesome.com/c0cf789da4.js" crossorigin="anonymous"></script>
 
 
-<script>
-    tailwind.config = {
-    theme: {
-        extend: {
-        colors: {
-            
-            button_bg: 'rgb(180, 244, 97)',
-            primary: 'rgb(017, 17, 17)',
-            secondary: 'rgba(017, 17, 17, 0.7)',
-            navbar_bg: 'rgb(249, 247, 243)',
-            
-            
+        <!-- Tailwind and DaisyUi links here -->
+        
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                
+                button_bg: 'rgb(180, 244, 97)',
+                primary: 'rgb(017, 17, 17)',
+                secondary: 'rgba(017, 17, 17, 0.7)',
+                navbar_bg: 'rgb(249, 247, 243)',
+                
+                
+            }
+            }
         }
         }
-    }
-    }
-</script>
+    </script>
 
 
-</head>
-<body class="max-w-screen-xl mx-auto">
+    </head>
+    <body class="max-w-screen-xl mx-auto">
 
-    <!-- Header section starts here -->
-    <header class="">
+        <!-- Header section starts here -->
+        <header class="">
 
-        
-            <!-- Navbar section starts here -->
-        <div class="navbar bg-navbar_bg py-6 flex justify-around w-full mx-auto">
             
-            <div class="navbar-item w-10/12">
-            <!-- Navbar Button -->
-        <div class="navbar-start">
-            <a class="text-primary font-bold text-xl px-8 py-3 rounded-lg bg-button_bg" href="index.html">Home</a>
-        </div>
+                <!-- Navbar section starts here -->
+            <div class="navbar bg-navbar_bg py-6 flex justify-around w-full mx-auto">
+                
+                <div class="navbar-item w-10/12">
+                <!-- Navbar Button -->
+            <div class="navbar-start">
+                <a class="text-primary font-bold text-xl px-8 py-3 rounded-lg bg-button_bg" href="index.html">Home</a>
+            </div>
 
-        <!-- Navbar Logo -->
-        <div class="navbar-center flex items-center gap-2">
-            <img src="./assets/logo.png" alt="" class="">
-            <h1 class="text-primary text-xl font-bold">Donate Banglaesh</h1>
-        </div>
-
-
-        <!-- Navbar amount -->
-        <div class="navbar-end flex items-center gap-2">
-            <img src="./assets/coin.png" alt="" class="">
-            <h1 class="text-secondary text-xl font-bold"> <span id="my-balance">5500</span> BDT</h1>
-        </div>
-        
+            <!-- Navbar Logo -->
+            <div class="navbar-center flex items-center gap-2">
+                <img src="./assets/logo.png" alt="" class="">
+                <h1 class="text-primary text-xl font-bold">Donate Banglaesh</h1>
+            </div>
 
 
-        </div>
-
+            <!-- Navbar amount -->
+            <div class="navbar-end flex items-center gap-2">
+                <img src="./assets/coin.png" alt="" class="">
+                <h1 class="text-secondary text-xl font-bold"> <span id="my-balance">5500</span> BDT</h1>
+            </div>
             
 
 
+            </div>
+
+                
+
+
+                
+
+            </div>
+            <!-- Navbar section ends here -->
+
+        </header>
+        <!-- Header section ends here -->
+
+        <!-- Main section starts here -->
+        <main class="w-10/12 mx-auto">
+
+            <!-- FAQ section starts here -->
+            <section class="important-faq py-4">
+                <h1 class="faq-heading text-primary font-extrabold text-2xl">
+                    Important FAQ <span class="ml-1"><i class="fa-regular fa-circle-question"></i></span>
+                </h1>
+            </section>
+
+            <section class="faq-items-section">
+                <!-- Item 1 -->
+                <div class="collapse collapse-arrow bg-base-200 mb-8">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                    <div class="collapse-content">
+                    <p>hello</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="collapse collapse-arrow bg-base-200 mb-8">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                    <div class="collapse-content">
+                    <p>hello</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="collapse collapse-arrow bg-base-200 mb-8">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+                    <div class="collapse-content">
+                    <p>hello</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="collapse collapse-arrow bg-base-200 mb-8">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+                    <div class="collapse-content">
+                    <p>hello</p>
+                    </div>
+                </div>
+
+                
+
+            </section>
+            <!-- FAQ section ends here -->
+
+
             
 
-        </div>
-        <!-- Navbar section ends here -->
+        </main>
+        <!-- Main section ends here -->
 
-    </header>
-    <!-- Header section ends here -->
-
-    <!-- Main section starts here -->
-    <main>
-
-    </main>
-    <!-- Main section ends here -->
-
-    <!-- Footer section starts here -->
-    <footer>
+        <!-- Footer section starts here -->
+        <footer>
+            
+        </footer>
+        <!-- Footer section ends here -->
         
-    </footer>
-    <!-- Footer section ends here -->
-    
 
-    <!-- JavaScript links here -->
-    <script src="./js/script.js"></script>
-</body>
-</html>
+        <!-- JavaScript links here -->
+        <script src="./js/script.js"></script>
+    </body>
+    </html>
