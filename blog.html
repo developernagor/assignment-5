@@ -92,7 +92,7 @@
                     <input type="radio" name="my-accordion-2" checked="checked" />
                     <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
                     <div class="collapse-content">
-                    <p>hello</p>
+                    <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a webpage as a hierarchical tree of objects, allowing programs and scripts to dynamically access and manipulate the content, structure, and style of a document. Essentially, the DOM provides a way for programming languages (like JavaScript) to interact with and modify HTML and XML documents.</p>
                     </div>
                 </div>
 
@@ -101,7 +101,15 @@
                     <input type="radio" name="my-accordion-2" />
                     <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
                     <div class="collapse-content">
-                    <p>hello</p>
+                    <p>To select an element from the DOM in JavaScript, there are several methods available.
+                        <ol type="1">
+                            <li>getElementById()</li>
+                            <li>getElementsByTagName()</li>
+                            <li>getElementsByClassName()</li>
+                            <li>querySelector()</li>
+                            <li>querySelectorAll()</li>
+                        </ol>
+                    </p>
                     </div>
                 </div>
 
@@ -110,7 +118,13 @@
                     <input type="radio" name="my-accordion-2" />
                     <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
                     <div class="collapse-content">
-                    <p>hello</p>
+                    <p>Event delegation is a technique in the context of the DOM that allows you to manage event listeners more efficiently. Instead of attaching event listeners to multiple child elements, you attach a single event listener to a common parent element. This event listener will listen for events that bubble up from its child elements, allowing you to handle events for multiple elements with a single listener.</p>
+                    <h5 class="font-bold">Why Event Delegation is Useful:</h5>
+                       <p> <u>Fewer Event Listeners:</u> If you have a large number of child elements, instead of attaching individual event listeners to each child, you attach one listener to a parent. This reduces memory usage and improves performance. <br>
+                        
+                        <u>Dynamic Content:</u> If child elements are dynamically added or removed from the DOM, you don’t need to attach or detach event listeners for each new or removed element. The parent’s event listener will automatically handle new children, as the event will still bubble up. <br>
+                        
+                        <u>Code Simplicity:</u> It reduces redundancy in code, making it easier to manage event listeners, especially when dealing with a large number of similar elements (e.g., items in a list or buttons in a form).</p>
                     </div>
                 </div>
 
@@ -119,7 +133,14 @@
                     <input type="radio" name="my-accordion-2" />
                     <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
                     <div class="collapse-content">
-                    <p>hello</p>
+                    <h3>To manipulate an element's attributes and styles using the DOM, you can use various JavaScript methods and properties. Here's how to perform these manipulations:</h3>
+                    <p><u>Manipulating Attributes: </u> <br>
+                        1. getAttribute() <br> 2. SetAttribute()  <br> 3. removeAttribute()
+
+                        <br>
+                        <u> Manipulating Styles:</u> <br>
+                        1. element.classList.add() <br> 2. element.classList.remove()  <br> 3. element.classList.toggle()  <br> 4. element.style.property  <br>
+                    </p>
                     </div>
                 </div>
 
